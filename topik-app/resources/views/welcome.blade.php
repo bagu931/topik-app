@@ -7,6 +7,6 @@
     <title>Mẹo Vặt Hàn Quốc</title>
 </head>
 <body>
-    hế nhô 3
+   {{DB::table('topik')->select('*')->get();}}
 </body>
 </html>
